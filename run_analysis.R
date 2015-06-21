@@ -10,8 +10,6 @@ rm(list=ls())
 
 # Download data and unzipping data
 
-setwd('C:\\data_science\\Getting_and_cleaning_the_data\\quiz3\\CourseProj')
-
 url = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 
 if(!file.exists('dataUPC.zip')){
